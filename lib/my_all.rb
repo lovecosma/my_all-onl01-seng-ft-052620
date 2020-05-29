@@ -1,6 +1,7 @@
 require 'pry'
 
 def my_all?(collection)
+if collection.length > 0
 i = 0
 new_collection = []
 while i < collection.length
@@ -12,4 +13,6 @@ if new_collection.include?.(false)
 else
   return true
 end
+else
+  puts "nothing in array"
 end
