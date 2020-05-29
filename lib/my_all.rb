@@ -9,11 +9,10 @@ while i < collection.length
   i+=1
 end
 if new_collection.include?.(false)
-  return true
-else
   return false
+else
+  return true
 end
 else
   puts "nothing in array"
-end
 end
