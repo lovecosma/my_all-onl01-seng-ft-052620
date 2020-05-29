@@ -10,7 +10,7 @@ end
 if new_collection.include?.(false)
   return false
 else
-  true
+  return true
 
 end
 end
