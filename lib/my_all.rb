@@ -9,8 +9,8 @@ while i < collection.length
 end
 if new_collection.include?.(false)
   return false
-else 
+else
   true
-  
-end 
+
+end
 end
