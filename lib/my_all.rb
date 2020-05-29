@@ -8,7 +8,7 @@ while i < collection.length
   new_collection << yield(collection[i])
   i+=1
 end
-if new_collection.include?.(false)
+if new_collection.include?(false)
   return false
 else
   return true
