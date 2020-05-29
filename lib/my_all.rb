@@ -16,3 +16,4 @@ end
 else
   puts "nothing in array"
 end
+end 
