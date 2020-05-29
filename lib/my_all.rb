@@ -11,6 +11,5 @@ if new_collection.include?.(false)
   return false
 else
   return true
-
 end
 end
