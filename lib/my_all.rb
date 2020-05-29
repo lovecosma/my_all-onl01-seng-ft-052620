@@ -7,5 +7,5 @@ while i < collection.length
   new_collection << yield(collection[i])
   i+=1
 end
-new_collection
+new_collection.include? do |value|
 end
