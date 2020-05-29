@@ -7,5 +7,10 @@ while i < collection.length
   new_collection << yield(collection[i])
   i+=1
 end
-new_collection.include? do |value|
+if new_collection.include?.(false)
+  return false
+else 
+  true
+  
+end 
 end
